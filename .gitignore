@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> change getFragmentManager() to getSupportFragmentManager
 *.iml
 .gradle
 /local.properties
@@ -13,6 +16,7 @@
 /captures
 .externalNativeBuild
 .cxx
+<<<<<<< HEAD
 =======
 # Built application files
 *.apk
@@ -100,3 +104,5 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 >>>>>>> 63a11d9aea4294bf951fb3027d69b35b988ea39d
+=======
+>>>>>>> change getFragmentManager() to getSupportFragmentManager
