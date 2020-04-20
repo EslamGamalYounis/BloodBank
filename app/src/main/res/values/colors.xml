@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9A0B0B</color>
+    <color name="colorPrimaryDark">#9A0B0B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="darkRed">#9A0B0B</color>
+    <color name="white">#E9E9E9</color>
+    <color name="orange">#EA5007</color>
+    <color name="brown">#772904</color>
+
+    <color name="lightRed">#FAB31919</color>
+    <color name="gray">#DCDCE6E0</color>
+    <color name="dark_gray">#8BDCE6E0</color>
+
+    <color name="white_red">#E4DA2525</color>
+
+    <color name="spinner_text_color">#9A0B0B</color>
+</resources>

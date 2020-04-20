@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_article_fragment_search_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spinner_filter_post_marginTop"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/linear_layout_search_marginStart"
+        android:layout_marginEnd="@dimen/linear_layout_search_marginEnd">
+
+        <EditText
+            android:id="@+id/et_filter_search_fragment_article_posts"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="2"
+            android:drawableStart="@drawable/red_small_search"
+            />
+
+    <Spinner
+        android:id="@+id/spinner_fragment_article_small_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="3"
+        android:layout_marginStart="5dp"
+        android:drawableStart="@drawable/down_arrow"
+        android:theme="@style/spinner_style"
+        />
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/recycler_post_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_article_fragment"
+        android:layout_below="@+id/linear_article_fragment_search_container"
+        android:layout_above="@+id/image_add_article_home_nav"
+        />
+
+
+    <ImageButton
+        android:id="@+id/image_add_article_home_nav"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/image_button_action_add_article"
+        android:layout_marginTop="25dp"
+        />
+
+
+</RelativeLayout>

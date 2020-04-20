@@ -1,0 +1,174 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="splash" parent="Theme.AppCompat.DayNight.NoActionBar"/>
+
+
+    <style name="largeEditText" parent="android:Widget.EditText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorHint">@color/darkRed</item>
+        <item name="android:background">@drawable/edit_text_round</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">@dimen/largeEditText_marginStart</item>
+        <item name="android:layout_marginEnd">@dimen/largeEditText_marginEnd</item>
+        <item name="android:paddingRight">@dimen/largeEditText_paddingRight</item>
+        <item name="android:paddingLeft">@dimen/largeEditText_paddingLeft</item>
+
+    </style>
+
+
+    <style name="smallEditText" parent="android:Widget.EditText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorHint">@color/darkRed</item>
+        <item name="android:background">@drawable/edit_text_round</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">@dimen/smallEditText_marginStart</item>
+        <item name="android:layout_marginEnd">@dimen/smallEditText_marginEnd</item>
+        <item name="android:paddingRight">@dimen/smallEditText_paddingRight</item>
+        <item name="android:paddingLeft">@dimen/smallEditText_paddingLeft</item>
+
+    </style>
+
+    <style name="smallButton" parent="android:Widget.Button.Small">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/darkRed</item>
+        <item name="android:background">@drawable/button_round</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">@dimen/smallButton_marginStart</item>
+
+    </style>
+
+    <style name="smallEditTextSearchArticle" parent="android:Widget.EditText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/small_edittext_search_article</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <style name="bigEditTextSearchArticle" parent="android:Widget.EditText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/big_edittext_search_article</item>
+        <item name="android:textSize">18sp</item>
+
+    </style>
+
+    <style name="text_view_item_recycler_article_nav" parent="android:Widget.TextView">
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:background">@drawable/text_view_round</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:layout_marginStart">@dimen/title_post_marginStart</item>
+    <item name="android:layout_marginEnd">@dimen/title_post_marginEnd</item>
+
+    </style>
+
+
+    <style name="editTextSearchDonation_request" parent="Widget.AppCompat.EditText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/edit_text_search_donation_request</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="spinner_style" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:background">@drawable/edit_text_round</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginStart">@dimen/smallEditText_marginStart</item>
+        <item name="android:layout_marginEnd">@dimen/smallEditText_marginEnd</item>
+    </style>
+
+    <style name="spinner_item" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:background">@drawable/spinner_item_text_view</item>
+        <item name="android:textColor">@color/darkRed</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="linear_layout_edit_text_container" parent="Theme.Design.Light.NoActionBar">
+        <item name="android:background">@drawable/linear_layout_edit_text_container</item>
+        <item name="android:layout_marginStart">@dimen/smallEditText_marginStart</item>
+        <item name="android:layout_marginEnd">@dimen/smallEditText_marginEnd</item>
+    </style>
+
+    //add donation edittext
+    <style name="edit_text_add_donation_request" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/darkRed</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/edit_text_donation_request</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:layout_height">@dimen/linear_donation_request_linear_height</item>
+    </style>
+
+
+    //notes editText
+    //add donation edittext
+    <style name="edit_text_add_donation_request_large" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/darkRed</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/edit_text_donation_request</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:layout_height">@dimen/linear_donation_request_linear_height_large_edit_text</item>
+    </style>
+
+
+    //spinner_style_adding_donation
+    <style name="spinner_style_adding_donation" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:background">@drawable/edit_text_donation_request</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    //map button
+    <style name="Button_select_location" parent="Widget.AppCompat.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_send_donation_request</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    //edit profile edittext
+    <style name="edit_text_edit_profile" parent="android:Widget.EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/edit_text_edit_profile</item>
+        <item name="android:layout_height">@dimen/edit_text_height_profile</item>
+        <item name="android:textColor">@color/darkRed</item>
+    </style>
+
+    //edit profile spinner
+    <style name="spinner_style_profile" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:background">@drawable/edit_text_round</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/darkRed</item>
+    </style>
+
+    //edit profile TextView
+    <style name="text_view_edit_profile" parent="android:Widget.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/edit_text_edit_profile</item>
+        <item name="android:layout_height">@dimen/edit_text_height_profile</item>
+        <item name="android:textColor">@color/darkRed</item>
+    </style>
+
+
+    <style name="Text_view_more_settings" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/darkRed</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:gravity">center|start</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+
+
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //large edit text
+    <dimen name="largeEditText_marginStart">16dp</dimen>
+    <dimen name="largeEditText_marginEnd">16dp</dimen>
+    <dimen name="largeEditText_paddingRight">10dp</dimen>
+    <dimen name="largeEditText_paddingLeft">10dp</dimen>
+    <dimen name="largeEditText_layout_height">50dp</dimen>
+    <dimen name="largeEditText_marginTop">20dp</dimen>
+
+
+
+
+
+    //small edit text in create new account
+    <dimen name="smallEditText_marginStart">20dp</dimen>
+    <dimen name="smallEditText_marginEnd">20dp</dimen>
+    <dimen name="smallEditText_paddingRight">10dp</dimen>
+    <dimen name="smallEditText_paddingLeft">10dp</dimen>
+    <dimen name="smallEditText_layout_height">35dp</dimen>
+    <dimen name="smallEditText_marginTop">20dp</dimen>
+    <dimen name="smallButton_width">180dp</dimen>
+    <dimen name="smallButton_height">50dp</dimen>
+
+
+    //small button
+    <dimen name="smallButton_marginStart">105dp</dimen>
+
+
+
+    <dimen name="smallSearchEditText_marginTop">15dp</dimen>
+    <dimen name="linear_layout_search_marginStart">10dp</dimen>
+    <dimen name="linear_layout_search_marginEnd">10dp</dimen>
+
+
+    //title of post
+    <dimen name="title_post_marginTop">15dp</dimen>
+    <dimen name="title_post_marginStart">10dp</dimen>
+    <dimen name="title_post_marginEnd">10dp</dimen>
+    <dimen name="title_post_marginBottom">15dp</dimen>
+
+    //spinner item
+    <dimen name="spinner_text_view_marginStart">20dp</dimen>
+    <dimen name="spinner_text_view_marginEnd">20dp</dimen>
+    <dimen name="spinner_filter_post_marginTop">10dp</dimen>
+    <dimen name="recycler_post_margin_top">10dp</dimen>
+
+
+    //linear_editText_donation_request
+    <dimen name="linear_donation_request_marginStart">20dp</dimen>
+    <dimen name="linear_donation_request_marginEnd">20dp</dimen>
+    <dimen name="linear_donation_request_marginTop">15dp</dimen>
+    <dimen name="linear_donation_request_linear_height">40dp</dimen>
+
+
+
+    <dimen name="linear_donation_request_linear_height_large_edit_text">100dp</dimen>
+
+    <dimen name="edit_text_height_profile">40dp</dimen>
+
+</resources>

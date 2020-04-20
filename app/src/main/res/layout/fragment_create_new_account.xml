@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/create_new_account"
+        android:textColor="#ffff"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/et_rigster_fragment_name"
+        android:layout_width="match_parent"
+        android:hint="@string/name"
+        android:layout_marginTop="30dp"
+        android:layout_height="@dimen/smallEditText_layout_height"
+        style="@style/smallEditText"
+        android:drawableRight="@drawable/profile_name"
+        />
+
+    <EditText
+        android:id="@+id/et_rigster_fragment_email"
+        android:layout_width="match_parent"
+        android:hint="@string/email"
+        android:layout_marginTop="@dimen/smallEditText_marginTop"
+        android:layout_height="@dimen/smallEditText_layout_height"
+        style="@style/smallEditText"
+        android:drawableRight="@drawable/email"
+        />
+
+    <TextView
+        android:id="@+id/tv_rigster_fragment_day_of_birth"
+        android:layout_width="match_parent"
+        android:hint="@string/day_of_birth"
+        android:layout_marginTop="@dimen/smallEditText_marginTop"
+        android:layout_height="@dimen/smallEditText_layout_height"
+        style="@style/smallEditText"
+        android:drawableRight="@drawable/data_of_birth"
+        />
+    <Spinner
+        android:id="@+id/spinner_rigster_fragment_blood_type"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/smallEditText_marginTop"
+        android:layout_height="@dimen/smallEditText_layout_height"
+        style="@style/spinner_style"
+              />
+
+            <TextView
+                android:id="@+id/tv_rigster_fragment_last_time_to_donation"
+                style="@style/smallEditText"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/smallEditText_layout_height"
+                android:layout_marginTop="@dimen/smallEditText_marginTop"
+                android:drawableRight="@drawable/data_of_birth"
+                android:hint="@string/last_time_donation" />
+        <Spinner
+        android:id="@+id/spinner_rigster_fragment_governorate"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/smallEditText_marginTop"
+        android:layout_height="@dimen/smallEditText_layout_height"
+        style="@style/spinner_style"
+        />
+    <Spinner
+        android:id="@+id/spinner_rigster_fragment_city"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/smallEditText_marginTop"
+        android:layout_height="@dimen/smallEditText_layout_height"
+        style="@style/spinner_style"
+        />
+
+    <EditText
+        android:id="@+id/et_rigster_fragment_phone_number"
+        android:layout_width="match_parent"
+        android:hint="@string/phone_number_hint"
+        android:layout_marginTop="@dimen/smallEditText_marginTop"
+        android:layout_height="@dimen/smallEditText_layout_height"
+        style="@style/smallEditText"
+        android:drawableRight="@drawable/phone_number"/>
+
+    <EditText
+        android:id="@+id/et_rigster_fragment_password"
+        android:layout_width="match_parent"
+        android:hint="@string/password"
+        android:layout_marginTop="@dimen/smallEditText_marginTop"
+        android:layout_height="@dimen/smallEditText_layout_height"
+        style="@style/smallEditText"
+        android:drawableRight="@drawable/password"
+        />
+
+    <EditText
+        android:id="@+id/et_rigster_fragment_confirm_password"
+        android:layout_width="match_parent"
+        android:hint="@string/confirm_password"
+        android:layout_marginTop="@dimen/smallEditText_marginTop"
+        android:layout_height="@dimen/smallEditText_layout_height"
+        style="@style/smallEditText"
+        android:drawableRight="@drawable/password"
+        />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bu_create_account_fragment_register"
+        android:layout_width="@dimen/smallButton_width"
+        android:layout_height="@dimen/smallButton_height"
+        android:layout_marginTop="30dp"
+        android:text="@string/register"
+        style="@style/smallButton"
+        />
+
+</LinearLayout>

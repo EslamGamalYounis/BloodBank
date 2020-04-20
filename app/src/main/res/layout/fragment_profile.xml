@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/darkRed">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:textColor="@color/white"
+            android:text="@string/edit_profile_data"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/linear_donation_request_marginTop"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/linear_layout_edit_text_container_edit_profile"
+                >
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/et_profile_name"
+                    style="@style/edit_text_edit_profile"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_profile_red"
+                    android:layout_weight="7"
+                    android:layout_marginEnd="10dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/linear_donation_request_marginTop"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/linear_layout_edit_text_container_edit_profile"
+                >
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/et_profile_email"
+                    style="@style/edit_text_edit_profile"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_email_red"
+                    android:layout_weight="7"
+                    android:layout_marginEnd="10dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/linear_donation_request_marginTop"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/linear_layout_edit_text_container_edit_profile"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/txt_profile_day_of_birth"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    style="@style/text_view_edit_profile"
+                    />
+
+                <Button
+                    android:id="@+id/bu_calender_day_of_birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/data_of_birth"
+                    android:layout_weight="7"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/linear_donation_request_marginTop"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/linear_layout_edit_text_container_edit_profile"
+                >
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_arrow_downward"
+                    android:layout_weight="6"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:id="@+id/spinner_profile_blood_type"
+                    android:layout_height="match_parent"
+                    style="@style/spinner_style_profile"
+                    android:layout_weight="2"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/blooddrop"
+                    android:layout_weight="6"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/linear_donation_request_marginTop"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/linear_layout_edit_text_container_edit_profile"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/txt_profile_last_donation"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    style="@style/text_view_edit_profile"
+                    />
+
+                <Button
+                    android:id="@+id/bu_profile_last_date_of_donation"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/data_of_birth"
+                    android:layout_weight="7"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/linear_donation_request_marginTop"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/linear_layout_edit_text_container_edit_profile"
+                >
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_arrow_downward"
+                    android:layout_weight="6"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:id="@+id/spinner_profile_governurate"
+                    android:layout_height="match_parent"
+                    style="@style/spinner_style_profile"
+                    android:layout_weight="2"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/city"
+                    android:layout_weight="6"
+                    android:layout_marginEnd="10dp"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/linear_donation_request_marginTop"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/linear_layout_edit_text_container_edit_profile"
+                >
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_arrow_downward"
+                    android:layout_weight="6"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:id="@+id/spinner_profile_city"
+                    android:layout_height="match_parent"
+                    style="@style/spinner_style_profile"
+                    android:layout_weight="2"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/city"
+                    android:layout_weight="6"
+                    android:layout_marginEnd="10dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/linear_donation_request_marginTop"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/linear_layout_edit_text_container_edit_profile"
+                >
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/et_profile_phone"
+                    style="@style/edit_text_edit_profile"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_call_red"
+                    android:layout_weight="7"
+                    android:layout_marginEnd="10dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/linear_donation_request_marginTop"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/linear_layout_edit_text_container_edit_profile"
+                >
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/et_profile_password"
+                    style="@style/edit_text_edit_profile"
+                    android:layout_weight="1"
+                    android:inputType="textPassword"
+                    android:ellipsize="start"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/password"
+                    android:layout_weight="7"
+                    android:layout_marginEnd="10dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/linear_donation_request_marginTop"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/linear_layout_edit_text_container_edit_profile"
+                >
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/et_profile_password_again"
+                    style="@style/edit_text_edit_profile"
+                    android:layout_weight="1"
+                    android:inputType="textPassword"
+                    android:ellipsize="start"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/password"
+                    android:layout_weight="7"
+                    android:layout_marginEnd="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bu_profile_edit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginEnd="110dp"
+                android:layout_marginTop="20dp"
+                style="@style/smallButton"
+                android:text="@string/edit"
+                android:background="@drawable/button_send_donation_request"
+                android:textColor="@color/white"
+                android:layout_marginBottom="20dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

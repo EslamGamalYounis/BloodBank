@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/darkRed"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/img_bu_donation_details_back"
+            android:background="@drawable/ic_arrow_back_white"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_donation_details_name_of_person_layout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="اسلام جمال"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="start|center"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/one_donation_request"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="end|center"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            >
+
+
+            <TextView
+                android:id="@+id/txt_donation_details_name_of_person"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:textColor="@color/darkRed"
+                android:gravity="center|start"
+                android:layout_marginEnd="10dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_donation_person_name_title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/name"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:textColor="@color/darkRed"
+                android:gravity="center_horizontal|end"
+                />
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt_donation_details_age_of_person"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/darkRed"
+                    android:gravity="center|start"
+                    android:layout_marginEnd="10dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txt_donation_person_age_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/age"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:textColor="@color/darkRed"
+                    android:gravity="center_horizontal|end"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt_donation_details_bloodType_of_person"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:textColor="@color/darkRed"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_donation_details_blood_type_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/blood_type"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:textColor="@color/darkRed"
+                    android:gravity="center|end"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt_donation_details_num_of_bags"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/darkRed"
+                    android:gravity="center|start"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_donation_details_bags_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/number_of_bags"
+                    android:textSize="14sp"
+                    android:layout_weight="4"
+                    android:textColor="@color/darkRed"
+                    android:gravity="center|end"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt_donation_details_name_of_hospital"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/darkRed"
+                    android:gravity="center|start"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_donation_details_hospital_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/hospital_al"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:paddingTop="15dp"
+                    android:textColor="@color/darkRed"
+                    android:gravity="end"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt_donation_details_hospital_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/darkRed"
+                    android:gravity="center|start"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_donation_details_hospital_address_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/address"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:textColor="@color/darkRed"
+                    android:gravity="center|end"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt_donation_details_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/darkRed"
+                    android:gravity="center|start"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_donation_details_phone_number_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/phone_numer"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:textColor="@color/darkRed"
+                    android:gravity="center|end"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_on_spinner"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+                <fragment
+                    class="com.google.android.gms.maps.SupportMapFragment"
+                    android:id="@+id/map_container_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" >
+
+                </fragment>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp">
+
+                <Button
+                    android:id="@+id/bu_donation_details_phone_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginEnd="90dp"
+                    android:text="@string/call"
+                    android:textColor="@color/white"
+                    style="@style/Button_select_location"
+                    android:layout_marginBottom="15dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

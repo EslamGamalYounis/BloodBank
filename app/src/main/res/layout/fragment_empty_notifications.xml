@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/darkRed">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:textColor="@color/white"
+            android:text="@string/notifications"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="@dimen/title_post_marginStart"
+            android:id="@+id/img_bu_notification_back"
+            android:background="@drawable/ic_arrow_back_white"
+            android:layout_marginBottom="@dimen/title_post_marginBottom"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="250dp"
+            android:background="@drawable/alert_orange"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="60dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/not_found_notification"
+        android:textSize="20sp"
+        android:textColor="@color/orange"
+        android:paddingEnd="130dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_save_people_by_donation"
+        android:textSize="20sp"
+        android:textColor="@color/orange"
+        android:paddingEnd="40dp"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/bu_notifications_settings_save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/notification_linear_background"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/donate"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>
